@@ -1,5 +1,3 @@
-import operator as oper
-
 # Funkcija za izracun:
 def calculator():
     prvi = input("Molim vas unesite cijeli broj: ")
@@ -30,15 +28,4 @@ def calculator():
             odlukaPonoviti()
 
     odlukaPonoviti()
-
-
-
-def provjeriOperatora(operacija):
-    return {
-        '+': oper.add,
-        '-': oper.sub,
-        '*': oper.mul,
-        '/': oper.truediv,
-    }[operacija]
-
 calculator()
